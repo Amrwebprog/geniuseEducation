@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Arabic", sans-serif;
+}
+body {
+  min-height: 100vh;
+}
+.announcment {
+    background-color: rgba(18, 55, 107, 1);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+  }
+  header .nav a {
+    font-size: 15.25px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(18, 55, 107, 1);
+  }
+  header .login-signup a {
+    font-size: 15.25px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+  
+    color: rgba(209, 34, 21, 1);
+  }
+  header .login-signup button {
+    font-size: 15.25px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(240, 75, 37, 1);
+    width: 163px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: none;
+    outline: none;
+  }
+
+  .connn-left h1
+  {
+   
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 14px;
+  color: white;
+  }
+  .connn-left p 
+  {
+  
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: white;
+  
+  }
+  
+  .connn-right h1
+  {
+   
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 14px;
+  color: white;
+  }
+  .connn-right p 
+  {
+  
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: white;
+  
+  }
+  
+  
+  
+  #footer-lasst h1
+  {
+    font-family: Alexandria;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color :white;
+  
+  }
+  .line 
+  {
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+    background-color: white;
+  }
+  
+  .finaly 
+  {
+    color :white ;
+    margin-top: 10px;
+    
+  }
+  .cont-body 
+  {
+    background-color: rgba(245, 245, 245, 1);
+    
+  }
+  .cont-body-right img
+  {
+    width: 100%;
+    height: 100%;
+  }
+  .cont-body-right 
+  {
+    height: 100%;
+  }
+  .btn-button 
+  {
+    background-color: rgba(240, 74, 38, 1);
+    height: 85px;
+    border-radius: 137px;
+    border: none;
+    outline: none;
+    color:rgba(255, 255, 255, 1);
+
+font-size: 36px;
+font-weight: 700;
+line-height: 50.4px;
+
+
+  }
+.page-head
+{
+    color: rgba(18, 55, 107, 1);
+    font-size: 56px;
+font-weight: 700;
+line-height: 84px;
+text-align: right;
+    
+}
+.cont-body-left h1 
+{
+font-size: 46.75px;
+font-weight: 700;
+line-height: 24px;
+text-align: right;
+color:  rgba(18, 55, 107, 1);
+
+ }
+ .cont-body-left label 
+ {
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: right;
+color: rgba(104, 104, 104, 1);
+ }
+ .price p 
+ {
+   
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 40.5px;
+    text-align: right;
+    color: rgba(129, 129, 129, 1);
+ }
+ .price h1 
+ {
+    color: rgba(18, 55, 107, 1);
+
+
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 40.5px;
+    text-align: right;
+    
+
+ }
+.page-head span
+{
+
+font-size: 56px;
+font-weight: 700;
+line-height: 84px;
+text-align: right;
+
+    color: rgba(240, 74, 38, 1);
+}
+
+  @media screen and (max-width: 450px)
+  {
+    .login-signup {
+        display: none !important;
+      }
+
+  }
+
+  @media screen and (max-width: 767px)
+  {
+    #log-menue {
+        display: block !important;
+      }
+    
+      .login-signup {
+        gap: 10px !important;
+      }
+      .login-signup button {
+        width: 100px !important;
+        height: 30px !important;
+      }
+      header {
+        padding: 0 !important;
+      }
+
+  }
+
+  @media screen and (max-width: 1000px)
+  {
+    .nav {
+        display: none !important;
+      }
+      #log-menue {
+        display: block !important;
+      }
+  }

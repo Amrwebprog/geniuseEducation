@@ -1,0 +1,474 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Arabic", sans-serif;
+}
+body {
+  min-height: 100vh;
+}
+
+.announcment {
+    background-color: rgba(18, 55, 107, 1);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+  }
+  header .nav a {
+    font-size: 15.25px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(18, 55, 107, 1);
+  }
+  header .login-signup a {
+    font-size: 15.25px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+  
+    color: rgba(209, 34, 21, 1);
+  }
+  header .login-signup button {
+    font-size: 15.25px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(240, 75, 37, 1);
+    width: 163px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: none;
+    outline: none;
+  }
+  .content-one h1
+  {
+    color: rgba(18, 55, 107, 1);
+font-size: 50px;
+font-weight: 700;
+line-height: 98.09px;
+text-align: right;
+
+  }
+
+  .content-one span 
+  {
+    color:  rgba(245, 168, 5, 1);
+    
+  }
+
+  .content-one p 
+  {
+  
+    color: rgba(97, 97, 97, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.03px;
+    text-align: right;
+    
+  }
+#first-button
+{
+background-color: rgba(240, 75, 37, 1);
+width: 174px;
+height: 50px;
+border: none;
+border-radius: 5px;
+
+font-size: 19px;
+font-weight: 700;
+line-height: 29.58px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+
+}
+#second-button 
+{
+background-color: rgba(245, 245, 245, 1);
+width: 174px;
+height: 50px;
+border-radius: 5px;
+color: rgba(144, 144, 144, 1);
+
+font-size: 18px;
+font-weight: 700;
+line-height: 28.03px;
+text-align: center;
+border: none;
+
+
+
+}
+.first-bg-color
+{
+background-color: rgba(18, 55, 107, 0.25);
+}
+.second-bg-color 
+{
+   background-color: rgba(240, 75, 37, 0.25);
+}
+.third-bg-color 
+{
+    background-color: rgba(40, 108, 213, 0.25);
+}
+.card-one 
+{
+    height: 267px;
+
+}
+
+  .connn-left h1
+  {
+   
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 14px;
+  color: white;
+  }
+  .connn-left p 
+  {
+  
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: white;
+  
+  }
+  
+  .connn-right h1
+  {
+   
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 14px;
+  color: white;
+  }
+  .connn-right p 
+  {
+  
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: white;
+  
+  }
+  #container-gray {
+    background-color: rgba(245, 245, 245, 1);
+  }
+  .content-tow p {
+    font-size: 30px;
+  }
+  .box-tow p {
+    font-size: 16px;
+  }
+  .red {
+    color: rgba(240, 74, 38, 1);
+  }
+  .yellow {
+    color: rgba(245, 168, 5, 1);
+  }
+  .blue {
+    color: rgba(41, 107, 214, 1);
+  }
+  .black {
+    color: rgba(18, 56, 107, 1);
+  }
+  .left-arrow {
+    border-radius: 50%;
+    width: 49px;
+    height: 49px;
+    border: 1px solid rgba(235, 235, 235, 1);
+  }
+  .right-arrow {
+    width: 49px;
+    height: 49px;
+    border: 1px solid rgba(129, 129, 129, 1);
+    border-radius: 50%;
+  }
+  .ourgoal 
+  {
+    color: rgba(18, 55, 107, 1);
+  }
+.line-right
+{
+    background-color: rgba(18, 55, 107, 1);
+    height: 1px;
+    width: 63px;
+    
+}
+.content-four-one-right 
+{
+font-size: 47px;
+font-weight: 700;
+line-height: 73.18px;
+text-align: right;
+
+}
+.bg-gray 
+{
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.ii img
+{
+    width: 100%;
+    height: 100%;
+}
+.card-tow
+{
+    height: 383px;
+
+}
+.card-head
+{
+    height: 70%;
+
+}
+.card-body
+{
+    height: 30%;
+}
+.content-four-l 
+{
+    height: 80%;
+}
+.content-four-r
+{
+    max-height: 500px
+}
+.one
+{
+    background-color: rgba(18, 55, 107, 0.25);
+}
+.tow
+{
+    background-color: rgba(240, 75, 37, 0.25);
+}
+.card-head img
+{
+height: 120%;
+bottom: 0;
+}
+
+    .lamp {
+        z-index: 1;
+        left: 158px;
+        top: 469px;
+        width: 104px;
+        height: 400px;
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0 0 286px 204px rgba(255, 255, 255, 0.5);
+    }
+  
+  #footer-lasst h1
+  {
+    font-family: Alexandria;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color :white;
+  
+  }
+  .line 
+  {
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+    background-color: white;
+  }
+
+  .finaly 
+{
+  color :white ;
+  margin-top: 10px;
+  
+}
+
+.last-info-left h1  
+{
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 51.38px;
+  text-align: right;
+  color:white;
+}
+
+.last-info-left p 
+{
+color : rgba(255, 255, 255, 1);
+font-size: 18px;
+font-weight: 400;
+line-height: 28.03px;
+text-align: right;
+
+}
+
+.last-info-left button
+{
+  width: 174px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+.ia 
+{
+  bottom: -96px;
+}
+.ia-tow
+{
+  left: 0;
+  top: 76px;
+}
+.ia-three 
+{
+  left: 0;
+  top: -45px;
+}
+
+
+.ia-four 
+{
+  right: 25px;
+  top: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+    .res 
+    {
+        flex-wrap: wrap !important;
+    }
+    .login-signup {
+      display: none !important;
+    }
+    .last-info-right
+    {
+      height: 538px;
+    }
+  
+  .ia 
+  {
+    top: 44px;
+  }
+  .ia-tow 
+  {
+    display: none;
+  }
+  .ia-four 
+  {
+    display: none;
+  }
+  
+    
+  }
+  
+  
+  @media screen and (max-width: 767px) {
+    .res 
+    {
+        flex-wrap: wrap !important;
+    }
+  
+    #log-menue {
+      display: block !important;
+    }
+  
+    .login-signup {
+      gap: 10px !important;
+    }
+    .login-signup button {
+      width: 100px !important;
+      height: 30px !important;
+    }
+    .header {
+      padding: 0 !important;
+    }
+ 
+   }
+
+
+
+
+  @media screen and (max-width: 1000px) {
+
+    .nav {
+      display: none !important;
+    }
+    #log-menue {
+      display: block !important;
+    }
+
+  }
