@@ -9,6 +9,20 @@
 body {
   min-height: 100vh;
 }
+.hhh
+{
+  display: flex;
+  width: 500px;
+  height: 500px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card
+{
+  width: 250px;
+}
 .announcment {
   background-color: rgba(18, 55, 107, 1);
   color: rgba(255, 255, 255, 1);
@@ -216,7 +230,7 @@ header .login-signup button {
 
 .content-right-five
 {
-   
+
 font-size: 40px;
 font-weight: 700;
 line-height: 62.28px;
@@ -229,7 +243,7 @@ color:rgba(18, 55, 107, 1);
 }
 .content-left-five
 {
-    
+
 font-size: 18px;
 font-weight: 400;
 line-height: 28.03px;
@@ -244,7 +258,7 @@ line-height: 28.03px;
 
 
 }
-.card-box h1 
+.card-box h1
 
 {
 font-size: 25.75px;
@@ -253,25 +267,25 @@ line-height: 24px;
 
 }
 
-.card-box p 
+.card-box p
 {
- 
+
 font-size: 15px;
 font-weight: 400;
 line-height: 23.36px;
 color: rgba(104, 104, 104, 1);
 
 }
-.card-box img 
+.card-box img
 {
     width: 100%;
     height: 70%;
     border-radius: 10px 10px 0 0 ;
 }
-.text-five 
-{   
-    
-    
+.text-five
+{
+
+
     height: 30%;
     text-align: center;
 }
@@ -287,7 +301,7 @@ color: rgba(104, 104, 104, 1);
 }
 .content-six-header h1
 {
-    
+
 font-size: 58px;
 font-weight: 700;
 line-height: 26px;
@@ -297,7 +311,7 @@ color: rgba(18, 55, 107, 1);
 {
     color: rgba(240, 75, 37, 1);
 }
-.arrow-right 
+.arrow-right
 {
   border: 1px solid rgba(104, 104, 104, 1)
   ;
@@ -323,7 +337,7 @@ color: rgba(18, 55, 107, 1);
   height: 294px;
   border-radius: 10px;
 }
-.box-six p 
+.box-six p
 {
   font-weight: 400;
   font-size: 18px;
@@ -338,11 +352,11 @@ color: rgba(18, 55, 107, 1);
 
 }
 
-.content-seven-right h1 
+.content-seven-right h1
 {
-  color: 
+  color:
   rgba(18, 55, 107, 1);
- 
+
 font-size: 40px;
 font-weight: 700;
 line-height: 62.28px;
@@ -351,9 +365,9 @@ text-align: right;
 }
 .content-seven-right span
 {
-  color: 
+  color:
   rgba(244, 169, 5, 1);
- 
+
 font-size: 40px;
 font-weight: 700;
 line-height: 62.28px;
@@ -384,7 +398,7 @@ min-height: 268px;
   line-height: 24px;
   text-align: right;
 }
-.card-body p 
+.card-body p
 {
   font-size: 15px;
   line-height: 23.36px;
@@ -396,7 +410,7 @@ font-weight: 400;
 {
   background-color: rgba(244, 169, 5, 0.25);
 }
-.card-head-second 
+.card-head-second
 {
   background-color: rgba(40, 108, 213, 0.25);
 }
@@ -409,7 +423,7 @@ font-weight: 400;
   background-color: rgba(18, 55, 107, 0.25);
 }
 
-.last-info-left h1  
+.last-info-left h1
 {
   font-weight: 700;
   font-size: 33px;
@@ -417,7 +431,7 @@ font-weight: 400;
   text-align: right;
   color:white;
 }
-.last-info-left p 
+.last-info-left p
 {
 color : rgba(255, 255, 255, 1);
 font-size: 18px;
@@ -432,10 +446,10 @@ text-align: right;
   height: 50px;
   border: none;
   border-radius: 5px;
-  
+
 }
 
-.ia 
+.ia
 {
   bottom: -96px;
 }
@@ -444,27 +458,27 @@ text-align: right;
   left: 0;
   top: 76px;
 }
-.ia-three 
+.ia-three
 {
   left: 0;
   top: -45px;
 }
 
 
-.ia-four 
+.ia-four
 {
   right: 25px;
   top: 40%;
 }
 .connn-left h1
 {
- 
+
 font-size: 18px;
 font-weight: 700;
 line-height: 14px;
 color: white;
 }
-.connn-left p 
+.connn-left p
 {
 
 font-size: 16px;
@@ -476,13 +490,13 @@ color: white;
 
 .connn-right h1
 {
- 
+
 font-size: 18px;
 font-weight: 700;
 line-height: 14px;
 color: white;
 }
-.connn-right p 
+.connn-right p
 {
 
 font-size: 16px;
@@ -493,7 +507,10 @@ color: white;
 }
 
 
-
+.yellow
+{
+  color:yellow;
+}
 #footer-lasst h1
 {
   font-family: Alexandria;
@@ -503,7 +520,7 @@ line-height: 24px;
 color :white;
 
 }
-.line 
+.line
 {
   width: 100%;
   height: 2px;
@@ -511,11 +528,11 @@ color :white;
   background-color: white;
 }
 
-.finaly 
+.finaly
 {
   color :white ;
   margin-top: 10px;
-  
+
 }
 
 @media screen and (max-width: 450px) {
@@ -523,11 +540,11 @@ color :white;
   {
     font-size: 20px !important;
   }
-  span 
+  span
   {
     font-size: 20px !important;
   }
-  p 
+  p
   {
     font-size: 18px !important;
   }
@@ -562,21 +579,21 @@ color :white;
   }
   .res{
     flex-direction: column !important;
-    
+
   }
   .last-info-right
   {
     height: 538px;
   }
-  .ia 
+  .ia
   {
     top: 44px;
   }
-  .ia-tow 
+  .ia-tow
   {
     display: none;
   }
-  .ia-four 
+  .ia-four
   {
     display: none;
   }
@@ -588,15 +605,15 @@ color :white;
   {
     height: 538px;
   }
-  .ia 
+  .ia
   {
     top: 44px;
   }
-  .ia-tow 
+  .ia-tow
   {
     display: none;
   }
-  .ia-four 
+  .ia-four
   {
     display: none;
   }
@@ -654,15 +671,15 @@ font-size: 25px;
   {
     height: 538px;
   }
-  .ia 
+  .ia
   {
     top: 44px;
   }
-  .ia-tow 
+  .ia-tow
   {
     display: none;
   }
-  .ia-four 
+  .ia-four
   {
     display: none;
   }
